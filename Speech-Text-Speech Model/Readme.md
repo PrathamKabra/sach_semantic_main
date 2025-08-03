@@ -1,1 +1,0 @@
-This folder it to create Speech-Text-Speech Model!
