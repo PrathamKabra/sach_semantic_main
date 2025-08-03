@@ -1,0 +1,106 @@
+# --- Python basics ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+
+# Virtual environments
+venv/
+.env/
+.env.*/
+.venv/
+pip-wheel-metadata/
+
+# Packaging / build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Logs / temp / caches
+*.log
+*.tmp
+*.out
+*.err
+*.pid
+.cache/
+.mypy_cache/
+.pytype/
+.pytest_cache/
+.dmypy.json
+coverage/
+htmlcov/
+.cache_dir/
+tmp/
+temp/
+
+# Jupyter & notebooks
+.ipynb_checkpoints/
+# VS Code auto-save backup of notebooks
+*.ipynb-*
+
+# VS Code
+.vscode/
+# (If you want to share settings, keep .vscode/settings.json and ignore the rest:
+# !.vscode/settings.json)
+
+# macOS & OS cruft
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Data & artifacts for this project
+# Audio (raw & intermediate)
+*.mp3
+*.wav
+*.flac
+*.m4a
+data/audio/
+data/raw_audio/
+data/tmp_audio/
+
+# Transcripts & large text outputs (generated)
+transcripts/
+*.vtt
+*.srt
+*.jsonl
+*.ctm
+
+# Datasets & caches
+data/*.csv
+!data/README.md           # keep a placeholder doc if you want
+data/cache/
+data/interim/
+data/processed/
+.whisper/
+whisper_cache/
+transformers_cache/
+huggingface/
+model_cache/
+models/
+checkpoints/
+
+# FFmpeg / processing artifacts
+*.part
+*.aria2
+*.crc
+*.idx
+*.cue
+
+# Credentials / secrets (never commit)
+*.env
+.env.local
+*.key
+*.pem
+*.credentials
+*token*
+*api_key*
+secrets/
