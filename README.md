@@ -1,4 +1,5 @@
-# Sourcing Accurate Cases without Hallucinations (SACH/सच)
+# Sourcing Accurate Cases without Hallucinations 
+(SACH/सच)
 
 ## Data pipeline from raw source to trained vector databases
 
